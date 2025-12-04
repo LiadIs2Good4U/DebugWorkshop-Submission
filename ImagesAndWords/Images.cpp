@@ -93,7 +93,6 @@ Image *GenerateDummyImage(uint16_t width, uint16_t height)
 
 int main()
 {
-	// זה יגרום לקריסה אם img2.magi באמת זדונית
 	Image* im = ReadImage("img2.magi");
 	FreeImage(im);
 	return 0;
